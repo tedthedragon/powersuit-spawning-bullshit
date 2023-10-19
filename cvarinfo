@@ -1,0 +1,103 @@
+// General same server variable stuff seen in many mods now, mostly from my self. If you need an explanation, see 
+// https://github.com/HDest-Community/ace-corp-extended/blob/6ca0d1afe29dc78aacb013e87177bf7312e36fbf/CVARINFO#L1C1-L7C76
+// It'll tell you basically anything there is to know. - [Ted]
+
+// --------------------
+// Powersuit Spawns
+// --------------------
+
+// Full Powersuit, replaces the original item
+server int full_powersuit_megasphere_spawn_bias = 19;
+server int full_powersuit_soulsphere_spawn_bias = -1;
+server int full_powersuit_BFG9k_spawn_bias = -1;
+server int full_powersuit_rocketlauncher_spawn_bias = -1;
+server int full_powersuit_thunderbuster_spawn_bias = -1;
+server bool full_powersuit_persistent_spawning = false;
+
+// Full Powersuit, doesn't replace the original item
+server int full_powersuit_norep_megasphere_spawn_bias = 19;
+server int full_powersuit_norep_soulsphere_spawn_bias = -1;
+server int full_powersuit_norep_BFG9k_spawn_bias = -1;
+server int full_powersuit_norep_rocketlauncher_spawn_bias = -1;
+server int full_powersuit_norep_thunderbuster_spawn_bias = -1;
+server bool full_powersuit_norep_persistent_spawning = false;
+
+// Full Powersuit, replaces the original item
+server int powersuit_beacon_megasphere_spawn_bias = -1;
+server int powersuit_beacon_soulsphere_spawn_bias = -1;
+server int powersuit_beacon_BFG9k_spawn_bias = -1;
+server int powersuit_beacon_rocketlauncher_spawn_bias = -1;
+server int powersuit_beacon_thunderbuster_spawn_bias = -1;
+server bool powersuit_beacon_persistent_spawning = false;
+
+// Full Powersuit, doesn't replace the original item
+server int powersuit_beacon_norep_megasphere_spawn_bias = -1;
+server int powersuit_beacon_norep_soulsphere_spawn_bias = -1;
+server int powersuit_beacon_norep_BFG9k_spawn_bias = -1;
+server int powersuit_beacon_norep_rocketlauncher_spawn_bias = -1;
+server int powersuit_beacon_norep_thunderbuster_spawn_bias = -1;
+server bool powersuit_beacon_norep_persistent_spawning = false;
+
+// --------------------
+// Weapon Spawns
+// --------------------
+
+// Athena 35mm Cannon, replaces the original item
+server int athena_replaces_BFG9k_spawn_bias = -1;
+server int athena_replaces_rocketlauncher_spawn_bias = -1;
+server int athena_replaces_thunderbuster_spawn_bias = -1;
+server bool athena_replaces_persistent_spawning = false;
+
+// Athena 35mm cannon, doesn't replace the original item
+server int athena_norep_BFG9k_spawn_bias = -1;
+server int athena_norep_rocketlauncher_spawn_bias = -1;
+server int athena_norep_thunderbuster_spawn_bias = -1;
+server bool athena_norep_persistent_spawning = false;
+
+// Calinicus Automatic Grenade Launcher, replaces the original item
+server int calinicus_replaces_BFG9k_spawn_bias = -1;
+server int calinicus_replaces_rocketlauncher_spawn_bias = -1;
+server int calinicus_replaces_thunderbuster_spawn_bias = -1;
+server bool calinicus_replaces_persistent_spawning = false;
+
+// Calinicus Automatic Grenade Launcher, doesn't replace the original item
+server int calinicus_norep_BFG9k_spawn_bias = -1;
+server int calinicus_norep_rocketlauncher_spawn_bias = -1;
+server int calinicus_norep_thunderbuster_spawn_bias = -1;
+server bool calinicus_norep_persistent_spawning = false;
+
+// Jackripper Hybrid Machine Gun, replaces the original item
+server int jackripper_replaces_BFG9k_spawn_bias = -1;
+server int jackripper_replaces_rocketlauncher_spawn_bias = -1;
+server int jackripper_replaces_thunderbuster_spawn_bias = -1;
+server bool jackripper_replaces_persistent_spawning = false;
+
+// Jackripper Hybrid Machine Gun, doesn't replace the original item
+server int jackripper_norep_BFG9k_spawn_bias = -1;
+server int jackripper_norep_rocketlauncher_spawn_bias = -1;
+server int jackripper_norep_thunderbuster_spawn_bias = -1;
+server bool jackripper_norep_persistent_spawning = false;
+
+// Leonidas mounted light machine gun, replaces the original item
+server int leonidas_replaces_BFG9k_spawn_bias = -1;
+server int leonidas_replaces_rocketlauncher_spawn_bias = -1;
+server int leonidas_replaces_thunderbuster_spawn_bias = -1;
+server bool leonidas_replaces_persistent_spawning = false;
+
+// Leonidas mounted light machine gun, doesn't replace the original item
+server int leonidas_norep_BFG9k_spawn_bias = -1;
+server int leonidas_norep_rocketlauncher_spawn_bias = -1;
+server int leonidas_norep_thunderbuster_spawn_bias = -1;
+server bool leonidas_norep_persistent_spawning = false;
+
+// ZMG33 mounted light machine gun, replaces the original item
+server int zmg33_replaces_BFG9k_spawn_bias = -1;
+server int zmg33_replaces_rocketlauncher_spawn_bias = -1;
+server int zmg33_replaces_thunderbuster_spawn_bias = -1;
+server bool zmg33_replaces_persistent_spawning = false;
+
+// ZMG33 mounted light machine gun, doesn't replace the original item
+server int zmg33_norep_BFG9k_spawn_bias = -1;
+server int zmg33_norep_rocketlauncher_spawn_bias = -1;
+server int zmg33_norep_thunderbuster_spawn_bias = -1;
+server bool zmg33_norep_persistent_spawning = false;
